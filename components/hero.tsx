@@ -39,10 +39,10 @@ export function Hero() {
         <div className="relative w-full max-w-4xl aspect-[16/9] bg-gradient-to-b from-white/5 to-transparent rounded-t-3xl border-t border-x border-white/10 flex items-center justify-center overflow-hidden group">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
           <div className="text-center">
-            <div className="w-64 h-40 bg-white/5 rounded-2xl border border-white/10 mx-auto mb-4 flex items-center justify-center backdrop-blur-sm">
-              <span className="font-mono text-xs text-muted-foreground">[ 3D RENDER PLACEHOLDER ]</span>
+            <div className="bg-white/5 rounded-2xl border border-white/10 mx-auto mb-4 flex items-center justify-center backdrop-blur-sm w-90 h-90">
+              <img src="/pcb.png" alt="3D Model Placeholder" className="object-fit" />
             </div>
-            <p className="text-sm text-muted-foreground font-mono">Navi R3 - Core Unit</p>
+            <p className="text-sm text-muted-foreground font-bold">Navi R3 - Core Unit</p>
           </div>
         </div>
       </div>

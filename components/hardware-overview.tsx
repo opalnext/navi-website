@@ -26,7 +26,7 @@ export function HardwareOverview() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">{comp.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-4">{comp.description}</p>
-                <div className="font-mono text-xs text-white/40">{comp.specs}</div>
+                <div className="font-bold text-xs text-white/40">{comp.specs}</div>
               </div>
             )
           })}

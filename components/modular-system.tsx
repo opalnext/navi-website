@@ -17,7 +17,7 @@ export function ModularSystem() {
             <div className="prose prose-invert">
               <p className="text-lg text-muted-foreground">
                 {t("modules.intro_prefix")}
-                <span className="font-mono text-white mx-2">{t("modules.ports")}</span>
+                <span className="font-bold text-white mx-2">{t("modules.ports")}</span>
                 {t("modules.intro_suffix")}
               </p>
             </div>
