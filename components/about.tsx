@@ -34,7 +34,7 @@ export function About() {
             <div className="text-center relative z-10">
               <div className="w-120 h-120 border-2 border-dashed border-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
                 <img
-                  src="/destructured-view.png"
+                  src="destructured-view.png"
                   alt="Modular Gaming Mouse"
                   className="object-contain"
                 />

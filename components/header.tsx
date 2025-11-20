@@ -13,7 +13,7 @@ export function Header() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <div className="relative w-8 h-8">
-            <Image src="/navi-logo.png" alt="Navi Logo" fill className="object-contain invert" />
+            <Image src="navi-logo.png" alt="Navi Logo" fill className="object-contain invert" />
           </div>
           <span className="font-bold text-xl tracking-tight">Navi R3</span>
         </Link>

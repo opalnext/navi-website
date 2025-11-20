@@ -40,7 +40,7 @@ export function Hero() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
           <div className="text-center">
             <div className="bg-white/5 rounded-2xl border border-white/10 mx-auto mb-4 flex items-center justify-center backdrop-blur-sm w-90 h-90">
-              <img src="/pcb.png" alt="3D Model Placeholder" className="object-fit" />
+              <img src="pcb.png" alt="3D Model Placeholder" className="object-fit" />
             </div>
             <p className="text-sm text-muted-foreground font-bold">Navi R3 - Core Unit</p>
           </div>
