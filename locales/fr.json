@@ -1,0 +1,93 @@
+{
+  "about": {
+    "title_pre": "Conçu pour la",
+    "title_highlight": "Liberté Totale",
+    "p1": "Le Navi R3 n'est pas seulement une souris ; c'est une plateforme. Construit autour d'un PCB personnalisé avec le MCU Nordic nRF52820 et le capteur PMW3360, il offre des performances sans fil de niveau professionnel sans compromis.",
+    "p2": "Chaque partie du Navi R3 est open source. Du firmware aux fichiers de coque imprimables en 3D, vous avez un accès complet pour modifier, améliorer et le personnaliser.",
+    "list": [
+      "Connectivité sans fil 2,4 GHz + USB-C",
+      "MCU Nordic nRF52820",
+      "Capteur haute précision PMW3360",
+      "Firmware et matériel entièrement open source"
+    ],
+    "exploded": "RENDER VUE EXPLOSEE",
+    "internal": "Architecture Interne"
+  }
+  ,
+  "header": {
+    "nav_features": "Fonctionnalités",
+    "nav_hardware": "Matériel",
+    "nav_modules": "Modules",
+    "github": "GitHub",
+    "preorder": "Précommande"
+  },
+  "hero": {
+    "badge": "PROJET MATÉRIEL OUVERT",
+    "subtitle": "Votre souris. Vos modules. Votre contrôle.",
+    "lead": "La première souris de jeu entièrement modulaire et open-source, conçue pour les créateurs et les professionnels.",
+    "cta_primary": "En savoir plus",
+    "cta_secondary": "Système de modules"
+  },
+  "footer": {
+    "description": "Une initiative open-hardware pour créer la souris multi-usages modulaire ultime.",
+    "project": "Projet",
+    "madewith": "Fait avec ❤️ par PikesTheFish",
+    
+    "links": {
+      "documentation": "Documentation",
+      "github": "Github",
+      "files_3d": "Fichiers 3D",
+      "schematics": "Schémas PCB",
+      "discord": "Discord",
+      "contributing": "Contribution",
+      "showcase": "Showcase",
+      "support": "Support",
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "copyright": "© 2025 Projet Navi. Licence Open Hardware."
+    }
+  }
+  ,
+  "modules": {
+    "title": "Une architecture modulaire",
+    "subtitle": "Ajoutez des fonctionnalités. Changez des fonctionnalités. Créez-en de nouvelles.",
+    "intro_prefix": "Le Navi R3 dispose de ports d'extension dédiés assignés aux broches",
+    "ports": "P0.02–P0.05 (AIN0–AIN3)",
+    "intro_suffix": "Ce ne sont pas de simples connecteurs ; ce sont votre passerelle vers l'innovation matérielle.",
+    "expansion_title": "Possibilités d'extension",
+    "expansion_list": [
+      "LEDs RGB adressables (WS2812)",
+      "Boutons macro supplémentaires",
+      "Encodeurs rotatifs",
+      "Moteurs à retour haptique"
+    ],
+    "how_title": "Comment ça marche",
+    "how_list": [
+      "Alimentation depuis le PCB principal",
+      "Données via les broches AIN",
+      "Auto-détection par le MCU",
+      "Configuration via le logiciel"
+    ]
+  },
+  "hardware": {
+    "title": "À l'intérieur du Navi R3",
+    "subtitle": "Les composants de qualité professionnelle rencontrent l'ingénierie accessible.",
+    "components": [
+      {
+        "title": "Nordic nRF52820",
+        "description": "Le cerveau de l'opération. Gère Bluetooth 5.4, la connectivité sans fil 2,4 GHz et USB avec une efficacité incroyable.",
+        "specs": "ARM Cortex-M4 • 64MHz"
+      },
+      {
+        "title": "PixArt PMW3360",
+        "description": "Suivi sans faille 1:1. Pas d'accélération, pas de lissage, juste une précision brute pour les jeux compétitifs.",
+        "specs": "12 000 DPI • 250 IPS • 50G"
+      },
+      {
+        "title": "Gestion de l'alimentation",
+        "description": "Charge Li-ion avancée avec MCP73833 et conversion boost 5V efficace pour une alimentation stable des modules.",
+        "specs": "Charge USB-C • Support 500mAh+"
+      }
+    ]
+  }
+}

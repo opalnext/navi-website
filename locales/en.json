@@ -1,0 +1,98 @@
+{
+  "about": {
+    "title_pre": "Engineered for",
+    "title_highlight": "Total Freedom",
+    "p1": "The Navi R3 isn't just a mouse; it's a platform. Built around a custom PCB with the Nordic nRF52820 MCU and PMW3360 sensor, it delivers pro-grade wireless performance with zero compromises.",
+    "p2": "Every part of the Navi R3 is open source. From the firmware to the 3D printable shell files, you have complete access to modify, improve, and make it your own.",
+    "list": [
+      "Wireless 2.4 GHz + USB-C Connectivity",
+      "Nordic nRF52820 MCU",
+      "PMW3360 High-Precision Sensor",
+      "Fully Open Source Firmware & Hardware"
+    ],
+    "exploded": "EXPLODED VIEW RENDER",
+    "internal": "Internal Architecture"
+  }
+  ,
+  "header": {
+    "nav_features": "Features",
+    "nav_hardware": "Hardware",
+    "nav_modules": "Modules",
+    "github": "GitHub",
+    "preorder": "Pre-order"
+  },
+  "hero": {
+    "badge": "OPEN HARDWARE PROJECT",
+    "subtitle": "Your mouse. Your modules. Your control.",
+    "lead": "The first fully modular, open-source gaming mouse designed for creators and pros.",
+    "cta_primary": "Learn More",
+    "cta_secondary": "Modules System"
+  },
+  "footer": {
+    "description": "An open-hardware initiative to create the ultimate modular gaming mouse. Designed by the community, for the community.",
+    "project": "Project",
+    "community": "Community",
+    "links": {
+      "documentation": "Documentation",
+      "github": "Github",
+      "files_3d": "3D Files",
+      "schematics": "PCB Schematics",
+      "discord": "Discord",
+      "contributing": "Contributing",
+      "showcase": "Showcase",
+      "support": "Support",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "copyright": "© 2025 Navi Project. Open Hardware License."
+    }
+  }
+  ,
+  "modules": {
+    "title": "A Modular Architecture",
+    "subtitle": "Add features. Change features. Create new ones.",
+    "intro_prefix": "The Navi R3 features dedicated extension ports assigned to pins",
+    "ports": "P0.02–P0.05 (AIN0–AIN3)",
+    "intro_suffix": "These aren't just connectors; they're your gateway to hardware innovation.",
+    "expansion_title": "Expansion Possibilities",
+    "expansion_list": [
+      "Addressable RGB LEDs (WS2812)",
+      "Extra Macro Buttons",
+      "Rotary Encoders",
+      "Haptic Feedback Motors"
+    ],
+    "how_title": "How It Works",
+    "how_list": [
+      "Power from main PCB",
+      "Data via AIN pins",
+      "Auto-detection by MCU",
+      "Config via software"
+    ],
+    "schematic": {
+      "main_pcb": "MAIN PCB",
+      "ain_label": "AIN0-3",
+      "module": "MODULE"
+    }
+    
+  },
+  "hardware": {
+    "title": "Inside the Navi R3",
+    "subtitle": "Professional grade components meet accessible engineering.",
+    "components": [
+      {
+        "title": "Nordic nRF52820",
+        "description": "The brain of the operation. Handles Bluetooth 5.4, 2.4GHz wireless, and USB connectivity with incredible efficiency.",
+        "specs": "ARM Cortex-M4 • 64MHz"
+      },
+      {
+        "title": "PixArt PMW3360",
+        "description": "Flawless 1:1 tracking. No acceleration, no smoothing, just raw precision for competitive gaming.",
+        "specs": "12,000 DPI • 250 IPS • 50G"
+      },
+      {
+        "title": "Power Management",
+        "description": "Advanced Li-ion charging with MCP73833 and efficient 5V boost conversion for stable module power.",
+        "specs": "USB-C Charging • 500mAh+ Support"
+      }
+    ]
+  }
+}
